@@ -1,0 +1,21 @@
+{
+    "name": "coffee-brand",
+    "version": "1.0.0",
+    "description": "will make the readme file l8r",
+    "main": "index.js",
+    "scripts": {
+        "dev": "parcel frontend/index.html",
+        "scss": "sass -w scss/style.scss:frontend/style.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ShoneUnity/Coffee-Brand.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ShoneUnity/Coffee-Brand/issues"
+    },
+    "homepage": "https://github.com/ShoneUnity/Coffee-Brand#readme"
+}
