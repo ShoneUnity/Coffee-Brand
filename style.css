@@ -4,7 +4,6 @@ body{
 	font-size:16px;
 	line-height:1.6em;
 	margin:0;
-    font-family: 'Playfair Display';
 }
 
 .container{
@@ -18,6 +17,7 @@ body{
 	width:70%;
 	padding:0px 30px;
 	box-sizing: border-box;
+	font-family: 'Poppins';
 }
 
 
@@ -43,6 +43,7 @@ body{
     text-align: center;
     text-shadow: 2px 2px 5px #000000;
     padding: 100px 100px 100px 100px;
+	font-family:  "Microbrew Soft Three 3D";
 }
 
 footer{
@@ -60,4 +61,8 @@ footer{
 	color:#fff;
 	padding:20px;
 	box-sizing: border-box;
+}
+
+h1 {
+	font-family:  "Microbrew Soft Three 3D";
 }
