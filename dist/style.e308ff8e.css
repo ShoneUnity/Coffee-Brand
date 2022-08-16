@@ -1,10 +1,10 @@
 .navbar {
   background-color: brown;
   text-align: center;
-  padding: 2.5%;
+  padding: 1px;
 }
 .navbar__title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: "MicrobrewThree3DW01-Regular";
   color: white;
 }
@@ -29,25 +29,25 @@ body {
   width: 80%;
   margin: auto;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
 }
 .container__main {
-  float: left;
-  width: 70%;
   padding: 0px 30px;
   box-sizing: border-box;
   font-family: "Poppins";
 }
 .container__sidebar {
-  float: right;
-  width: 30%;
   background: #333;
+  width: 125vw;
   color: #fff;
-  padding: 20px;
+  padding: 50px;
   box-sizing: border-box;
 }
 
 .showcase {
   background-image: url("https://img.freepik.com/free-photo/cup-coffee-with-foam-smile-face-desk-isolated_1303-18307.jpg?w=2000");
+  background-repeat: no-repeat;
   background-position: center right;
   height: 500px;
   margin-bottom: 30px;

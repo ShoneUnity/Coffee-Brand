@@ -12,25 +12,27 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
     &__main {
-        float: left;
-        width: 70%;
         padding: 0px 30px;
         box-sizing: border-box;
         font-family: "Poppins";
     }
     &__sidebar {
-        float: right;
-        width: 30%;
         background: #333;
+        // margin-left: 50%;
+        width: 125vw;
         color: #fff;
-        padding: 20px;
+        padding: 50px;
         box-sizing: border-box;
     }
 }
 
 .showcase {
     background-image: url("https://img.freepik.com/free-photo/cup-coffee-with-foam-smile-face-desk-isolated_1303-18307.jpg?w=2000");
+    // background-image: url("/images/coffee1.jpg"), ;
+    background-repeat: no-repeat;
     background-position: center right;
     height: 500px;
     margin-bottom: 30px;

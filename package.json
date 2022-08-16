@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "dev": "parcel frontend/index.html",
-        "scss": "sass -w scss:frontend"
+        "scss": "sass -w scss/style.scss:frontend/style.css"
     },
     "repository": {
         "type": "git",
