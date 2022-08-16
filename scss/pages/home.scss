@@ -1,0 +1,48 @@
+@use "../components";
+
+body {
+    background-color: #f4f4f4;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    &__main {
+        float: left;
+        width: 70%;
+        padding: 0px 30px;
+        box-sizing: border-box;
+        font-family: "Poppins";
+    }
+    &__sidebar {
+        float: right;
+        width: 30%;
+        background: #333;
+        color: #fff;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
+
+.showcase {
+    background-image: url("https://img.freepik.com/free-photo/cup-coffee-with-foam-smile-face-desk-isolated_1303-18307.jpg?w=2000");
+    background-position: center right;
+    height: 500px;
+    margin-bottom: 30px;
+    text-align: center;
+    overflow: hidden;
+    &__container {
+        color: #fff;
+        font-size: 50px;
+        line-height: 1.6em;
+        text-align: center;
+        text-shadow: 2px 2px 5px #000000;
+        padding: 100px 100px 100px 100px;
+        font-family: "Microbrew Soft Three 3D";
+    }
+}

@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "dev": "parcel frontend/index.html",
-        "scss": "sass -w scss/style.scss:frontend/style.css"
+        "scss": "sass -w scss:frontend"
     },
     "repository": {
         "type": "git",
@@ -17,5 +17,8 @@
     "bugs": {
         "url": "https://github.com/ShoneUnity/Coffee-Brand/issues"
     },
-    "homepage": "https://github.com/ShoneUnity/Coffee-Brand#readme"
+    "homepage": "https://github.com/ShoneUnity/Coffee-Brand#readme",
+    "devDependencies": {
+        "parcel-bundler": "^1.12.5"
+    }
 }

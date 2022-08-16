@@ -1,0 +1,10 @@
+.navbar {
+    background-color: brown;
+    text-align: center;
+    padding: 2.5%;
+    &__title {
+        font-size: 2.5rem;
+        font-family: "MicrobrewThree3DW01-Regular";
+        color: white;
+    }
+}
