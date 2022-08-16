@@ -1,10 +1,32 @@
 .navbar {
     background-color: brown;
-    text-align: center;
-    padding: 1px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     &__title {
-        font-size: 2rem;
-        font-family: "MicrobrewThree3DW01-Regular";
-        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        h1 {
+            font-size: 2rem;
+            font-family: "MicrobrewThree3DW01-Regular";
+            color: white;
+            padding-left: 10px;
+        }
+        i {
+            color: white;
+        }
+    }
+    &__links {
+        .link {
+            color: white;
+            padding-inline: 10px;
+            text-decoration: none;
+            font-family: "Poppins";
+        }
+        .active {
+            font-weight: bold;
+        }
     }
 }
