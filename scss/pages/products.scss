@@ -1,0 +1,20 @@
+@use "../abstracts" as *;
+
+.products {
+    padding: 0 12.5%;
+    &__title {
+        padding-bottom: $gap;
+    }
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2.5rem;
+        .card {
+            box-shadow: 13px 15px 5px 2px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            background-color: rgb(219, 219, 219);
+            padding: 5%;
+        }
+    }
+}

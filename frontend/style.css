@@ -1,9 +1,12 @@
 .navbar {
-  background-color: brown;
+  background-color: white;
   padding: 20px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: black;
+  position: fixed;
+  width: 95%;
 }
 .navbar__title {
   display: flex;
@@ -13,24 +16,24 @@
 .navbar__title h1 {
   font-size: 2rem;
   font-family: "MicrobrewThree3DW01-Regular";
-  color: white;
   padding-left: 10px;
 }
 .navbar__title i {
-  color: white;
+  font-size: 2rem;
+  padding-bottom: 8px;
 }
 .navbar__links .link {
-  color: white;
+  color: black;
   padding-inline: 10px;
   text-decoration: none;
   font-family: "Poppins";
 }
-.navbar__links .active {
+.navbar__links .link:hover {
   font-weight: bold;
 }
 
 footer {
-  background: #333;
+  background: #221106;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -48,7 +51,29 @@ body {
   color: #555;
   font-size: 16px;
   line-height: 1.6em;
-  margin: 0;
+}
+
+.showcase {
+  background-image: url("https://img.freepik.com/free-photo/cup-coffee-with-foam-smile-face-desk-isolated_1303-18307.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-position: center right;
+  margin-bottom: 30px;
+  text-align: center;
+  overflow: hidden;
+}
+.showcase__container {
+  text-align: center;
+  padding: 100px 100px 100px 100px;
+}
+.showcase__container h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-family: sans-serif;
+  line-height: 1.6em;
+  padding: 5%;
+  text-shadow: 2px 2px 5px #000000;
+  background: rgba(36, 36, 36, 0.568627451);
+  border-radius: 10px;
 }
 
 .container {
@@ -57,37 +82,44 @@ body {
   overflow: hidden;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 5%;
 }
 .container__main {
   padding: 0px 30px;
   box-sizing: border-box;
   font-family: "Poppins";
 }
+.container__main h1 {
+  padding-bottom: 20px;
+}
 .container__sidebar {
-  background: #333;
+  background: #64391c;
   width: 125vw;
   color: #fff;
   padding: 50px;
   box-sizing: border-box;
 }
-
-.showcase {
-  background-image: url("https://img.freepik.com/free-photo/cup-coffee-with-foam-smile-face-desk-isolated_1303-18307.jpg?w=2000");
-  background-repeat: no-repeat;
-  background-position: center right;
-  height: 500px;
-  margin-bottom: 30px;
-  text-align: center;
-  overflow: hidden;
+.container__sidebar h2 {
+  padding-bottom: 20px;
 }
-.showcase__container {
-  color: #fff;
-  font-size: 50px;
-  line-height: 1.6em;
-  text-align: center;
-  text-shadow: 2px 2px 5px #000000;
-  padding: 100px 100px 100px 100px;
-  font-family: "Microbrew Soft Three 3D";
+
+.products {
+  padding: 0 12.5%;
+}
+.products__title {
+  padding-bottom: 20px;
+}
+.products__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+}
+.products__cards .card {
+  box-shadow: 13px 15px 5px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-color: rgb(219, 219, 219);
+  padding: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */

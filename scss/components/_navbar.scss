@@ -1,31 +1,38 @@
+@use "../abstracts" as *;
+
 .navbar {
-    background-color: brown;
+    // background-color: brown;
+    // background-color: #693818;
+    background-color: white;
     padding: 20px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: black;
+    position: fixed;
+    width: 95%;
     &__title {
         display: flex;
         justify-content: space-around;
         align-items: center;
         h1 {
-            font-size: 2rem;
+            font-size: $titleFontSize;
             font-family: "MicrobrewThree3DW01-Regular";
-            color: white;
             padding-left: 10px;
         }
         i {
-            color: white;
+            font-size: $titleFontSize;
+            padding-bottom: 8px;
         }
     }
     &__links {
         .link {
-            color: white;
+            color: black;
             padding-inline: 10px;
             text-decoration: none;
             font-family: "Poppins";
         }
-        .active {
+        .link:hover {
             font-weight: bold;
         }
     }
