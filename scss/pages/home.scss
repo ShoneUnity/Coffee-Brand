@@ -90,10 +90,16 @@ html {
 }
 
 @media only screen and (max-width: 600px) {
-    .navbar__links link[href="#contact"] {
+    .navbar .navbar__links {
         display: none;
+    }
+    .navbar .navbar__title {
+        text-align: center;
     }
     .contact {
         display: none;
+    }
+    .showcase .showcase__container h1 {
+        font-size: 50px;
     }
 }
