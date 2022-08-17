@@ -1,5 +1,5 @@
 .navbar {
-  background-color: rgba(224, 224, 224, 0.8980392157);
+  background-color: #e0e0e0;
   padding: 20px 50px;
   display: flex;
   justify-content: space-between;
@@ -56,6 +56,11 @@ body {
   color: #555;
   font-size: 16px;
   line-height: 1.6em;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
 }
 
 .showcase {

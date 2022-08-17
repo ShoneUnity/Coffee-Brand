@@ -13,6 +13,11 @@ body {
     line-height: 1.6em;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
 .showcase {
     background-image: url("https://img.freepik.com/free-photo/cup-coffee-with-foam-smile-face-desk-isolated_1303-18307.jpg?w=2000");
     background-repeat: no-repeat;
@@ -55,7 +60,6 @@ body {
     }
     &__sidebar {
         background: #64391c;
-        // margin-left: 50%;
         width: 125vw;
         color: #fff;
         padding: 50px;
