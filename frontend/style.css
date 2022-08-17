@@ -139,20 +139,13 @@ html {
   padding: 5%;
   text-align: center;
 }
-.products__cards .card__image {
-  background-image: url("assets/espresso.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 40%;
-  border-radius: 10px;
-}
 .products__cards .card__title {
   font-size: 2rem;
   font-family: sans-serif;
   font-weight: 600;
   padding-bottom: 20px;
   padding-top: 20px;
+  margin-top: 20px;
 }
 .products__cards .card__about {
   padding-bottom: 10px;
@@ -160,6 +153,7 @@ html {
 .products__cards .card__price {
   display: flex;
   justify-content: space-around;
+  padding-top: 10px;
 }
 .products__cards .card__price button {
   border-radius: 5px;
@@ -176,6 +170,86 @@ html {
   padding: 25px 5%;
   text-decoration: none;
   color: #64391c;
+}
+
+.cappuccino {
+  background-image: url("assets/images/cappuccino.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40%;
+  border-radius: 10px;
+}
+
+.espresso {
+  background-image: url("assets/images/espresso.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40%;
+  border-radius: 10px;
+}
+
+.latte {
+  background-image: url("assets/images/latte.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40%;
+  border-radius: 10px;
+}
+
+.americano {
+  background-image: url("assets/images/americano.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40%;
+  border-radius: 10px;
+}
+
+.bestseller {
+  background-color: purple;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.new {
+  background-color: green;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.nutmeg {
+  background-color: brown;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.original {
+  background-color: orange;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
