@@ -18,9 +18,10 @@ yarn i -D sass
 
 ## Run Project
 
-1.
+3.
 
 ```
+to run both
 npm run dev
 yarn run dev
 ```
@@ -28,6 +29,22 @@ yarn run dev
 2.
 
 ```
+to run parcel
+npm run parcel
+yarn run parcel
+```
+
+3.
+
+```
+to run scss
 npm run scss
 yarn run scss
+```
+
+## Build Project
+
+```
+npm run build
+yarn run build
 ```

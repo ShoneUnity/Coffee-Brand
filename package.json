@@ -4,8 +4,9 @@
     "description": "will make the readme file l8r",
     "main": "index.js",
     "scripts": {
-        "dev": "parcel frontend/index.html",
-        "scss": "sass -w scss/style.scss:frontend/style.css"
+        "dev": "concurrently npm:watch:*",
+        "watch:parcel": "parcel frontend/index.html",
+        "watch:scss": "sass -w scss/style.scss:frontend/style.css"
     },
     "repository": {
         "type": "git",
@@ -19,6 +20,7 @@
     },
     "homepage": "https://github.com/ShoneUnity/Coffee-Brand#readme",
     "devDependencies": {
+        "concurrently": "^7.3.0",
         "parcel-bundler": "^1.12.5"
     }
 }
