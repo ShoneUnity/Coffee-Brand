@@ -130,6 +130,14 @@ html {
     display: none;
   }
 }
+@media only screen and (max-width: 600px) {
+  .navbar__links link[href="#contact"] {
+    display: none;
+  }
+  .contact {
+    display: none;
+  }
+}
 .products {
   padding: 0 12.5%;
   font-family: "Poppins";
