@@ -2,18 +2,10 @@
 
 ## Project setup
 
-1.
-
 ```
-npm i -D parcel
-yarn i -D parcel
-```
-
-2.
-
-```
-npm i -D sass
-yarn i -D sass
+npm i
+or
+yarn i
 ```
 
 ## Run Project
@@ -22,6 +14,7 @@ yarn i -D sass
 
 ```
 npm run dev
+or
 yarn run dev
 ```
 
@@ -29,5 +22,6 @@ yarn run dev
 
 ```
 npm run scss
+or
 yarn run scss
 ```
