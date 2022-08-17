@@ -10,27 +10,24 @@ yarn i
 
 ## Run Project
 
-3.
+**Run both**
 
 ```
-to run both
 npm run dev
 or
 yarn run dev
 ```
 
-2.
+**Run parcel**
 
 ```
-to run parcel
 npm run parcel
 yarn run parcel
 ```
 
-3.
+**Run scss**
 
 ```
-to run scss
 npm run scss
 or
 yarn run scss
