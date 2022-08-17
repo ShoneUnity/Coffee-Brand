@@ -2,19 +2,63 @@
 
 .products {
     padding: 0 12.5%;
+    font-family: "Poppins";
     &__title {
         padding-bottom: $gap;
+        font-weight: 700;
     }
     &__cards {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
-        gap: 2.5rem;
+        row-gap: 4rem;
+        flex-wrap: wrap;
         .card {
+            flex-basis: 30%;
             box-shadow: 13px 15px 5px 2px rgba(0, 0, 0, 0.25);
             border-radius: 10px;
-            background-color: rgb(219, 219, 219);
+            background-color: rgb(255, 255, 255);
             padding: 5%;
+            text-align: center;
+            &__image {
+                background-image: url("assets/espresso.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                // background-size: 50%;
+                padding: 40%;
+                border-radius: 10px;
+            }
+            &__title {
+                font-size: 2rem;
+                font-family: sans-serif;
+                font-weight: 600;
+                padding-bottom: $gap;
+                padding-top: $gap;
+            }
+            &__about {
+                padding-bottom: $gapSmall;
+            }
+            &__price {
+                display: flex;
+                justify-content: space-around;
+                button {
+                    border-radius: 5px;
+                    padding: 5px;
+                    border-color: transparent;
+                    &:hover {
+                        font-weight: 600;
+                        outline: 2px black solid;
+                    }
+                }
+            }
         }
+    }
+    &__more {
+        display: flex;
+        justify-content: flex-end;
+        padding: 25px 5%;
+        text-decoration: none;
+        color: #64391c;
     }
 }

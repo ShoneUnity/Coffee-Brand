@@ -3,7 +3,7 @@
 .navbar {
     // background-color: brown;
     // background-color: #693818;
-    background-color: white;
+    background-color: #e0e0e0e5;
     padding: 20px 50px;
     display: flex;
     justify-content: space-between;
@@ -11,6 +11,7 @@
     color: black;
     position: fixed;
     width: 95%;
+    outline: 1px grey solid;
     &__title {
         display: flex;
         justify-content: space-around;
@@ -34,6 +35,10 @@
         }
         .link:hover {
             font-weight: bold;
+        }
+        .link:focus {
+            font-weight: bold;
+            outline: none;
         }
     }
 }
