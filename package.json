@@ -4,6 +4,7 @@
     "description": "will make the readme file l8r",
     "main": "index.js",
     "scripts": {
+        "build": "parcel build frontend/index.html",
         "dev": "concurrently npm:watch:*",
         "watch:parcel": "parcel frontend/index.html",
         "watch:scss": "sass -w scss/style.scss:frontend/style.css"
