@@ -8,7 +8,6 @@
 }
 body {
     background-color: #e0e0e0;
-    color: #555;
     font-size: 16px;
     line-height: 1.6em;
 }
@@ -37,7 +36,7 @@ html {
             padding: 5%;
             text-shadow: 2px 2px 5px #000000;
             background: #24242491;
-            border-radius: 10px;
+            border-radius: $borderRadius;
         }
     }
 }
@@ -56,18 +55,36 @@ html {
         h1 {
             padding-bottom: $gap;
             font-weight: 700;
+            color: $mainColor;
         }
     }
     &__sidebar {
-        background: #64391c;
+        background: $mainColor;
         width: 125vw;
         color: #fff;
         padding: 50px;
         box-sizing: border-box;
-        border-radius: 10px;
+        border-radius: $borderRadius;
         h2 {
             padding-bottom: $gap;
             font-weight: bold;
         }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    * {
+        flex-wrap: wrap;
+    }
+    .form__image {
+        display: none;
+    }
+
+    .form__content {
+        border-radius: $borderRadius;
+    }
+
+    .container__sidebar {
+        display: none;
     }
 }

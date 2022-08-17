@@ -53,7 +53,6 @@ footer {
 
 body {
   background-color: #e0e0e0;
-  color: #555;
   font-size: 16px;
   line-height: 1.6em;
 }
@@ -102,6 +101,7 @@ html {
 .container__main h1 {
   padding-bottom: 20px;
   font-weight: 700;
+  color: #64391c;
 }
 .container__sidebar {
   background: #64391c;
@@ -116,6 +116,20 @@ html {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 800px) {
+  * {
+    flex-wrap: wrap;
+  }
+  .form__image {
+    display: none;
+  }
+  .form__content {
+    border-radius: 10px;
+  }
+  .container__sidebar {
+    display: none;
+  }
+}
 .products {
   padding: 0 12.5%;
   font-family: "Poppins";
@@ -123,6 +137,7 @@ html {
 .products__title {
   padding-bottom: 20px;
   font-weight: 700;
+  color: #64391c;
 }
 .products__cards {
   display: flex;
@@ -135,7 +150,7 @@ html {
   flex-basis: 30%;
   box-shadow: 13px 15px 5px 2px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   padding: 5%;
   text-align: center;
 }
@@ -146,6 +161,7 @@ html {
   padding-bottom: 20px;
   padding-top: 20px;
   margin-top: 20px;
+  color: #64391c;
 }
 .products__cards .card__about {
   padding-bottom: 10px;
@@ -154,15 +170,16 @@ html {
   display: flex;
   justify-content: space-around;
   padding-top: 10px;
+  color: #64391c;
 }
 .products__cards .card__price button {
   border-radius: 5px;
   padding: 5px;
   border-color: transparent;
+  color: #64391c;
 }
 .products__cards .card__price button:hover {
   font-weight: 600;
-  outline: 2px black solid;
 }
 .products__more {
   display: flex;
@@ -201,6 +218,24 @@ html {
 
 .americano {
   background-image: url("assets/images/americano.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40%;
+  border-radius: 10px;
+}
+
+.walnutcake {
+  background-image: url("assets/images/walnutcake.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40%;
+  border-radius: 10px;
+}
+
+.chococake {
+  background-image: url("assets/images/chococake.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -250,6 +285,83 @@ html {
   font-family: sans-serif;
   font-weight: 600;
   padding: 10px;
+}
+
+.contact {
+  padding: 0 12.5%;
+  font-family: "Poppins";
+}
+.contact__title {
+  padding-bottom: 20px;
+  font-weight: 700;
+  color: #64391c;
+}
+.contact__form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.contact__form .form__image {
+  background-image: url("assets/images/coffee.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 29.6% 20%;
+  border-radius: 10px 0 0 10px;
+}
+.contact__form .form__content {
+  padding: 0 2.5%;
+  border-radius: 0 10px 10px 0;
+  background-color: #ffffff;
+}
+.contact__form .form__input {
+  margin: 30px 0;
+}
+.contact__form .form__input > * {
+  display: block;
+}
+.contact__form .form__input label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #888;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.contact__form .form__input input, .contact__form .form__input textarea {
+  margin: 7px 0;
+  width: 100%;
+  padding: 15px 0;
+  text-indent: 20px;
+  border: 2px solid #eaeaef;
+  border-radius: 2px;
+}
+.contact__form .form__input input[type=text]:focus, .contact__form .form__input input[type=text]:active, .contact__form .form__input input[type=email]:focus, .contact__form .form__input input[type=email]:active, .contact__form .form__input textarea:focus, .contact__form .form__input textarea:active {
+  border-color: #64391c;
+  outline: none;
+}
+.contact__form .form__input button {
+  padding: 15px 20px;
+  background: #64391c;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.contact__form .form__input button:focus, .contact__form .form__input button:active {
+  outline: none;
+}
+.contact__form .form__input button:hover {
+  font-weight: 700;
+}
+.contact__form .form__input textarea {
+  width: 499px;
+  height: 161px;
+  resize: none;
+}
+.contact__form .form__input:last-child {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

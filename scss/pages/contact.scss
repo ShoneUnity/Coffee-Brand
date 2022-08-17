@@ -1,0 +1,93 @@
+@use "../abstracts" as *;
+
+.contact {
+    padding: 0 12.5%;
+    font-family: "Poppins";
+    &__title {
+        padding-bottom: $gap;
+        font-weight: 700;
+        color: $mainColor;
+    }
+    &__form {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        .form__image {
+            background-image: url("assets/images/coffee.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 29.6% 20%;
+            border-radius: $borderRadius 0 0 $borderRadius;
+        }
+        .form__content {
+            padding: 0 2.5%;
+            border-radius: 0 $borderRadius $borderRadius 0;
+            background-color: #ffffff;
+        }
+        .form__input {
+            margin: 30px 0;
+            & > * {
+                display: block;
+            }
+
+            & label {
+                font-size: 0.9rem;
+                font-weight: bold;
+                color: #888;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+
+            & input,
+            & textarea {
+                margin: 7px 0;
+                width: 100%;
+                padding: 15px 0;
+                text-indent: 20px;
+                border: 2px solid #eaeaef;
+                border-radius: 2px;
+            }
+
+            & input[type="text"]:focus,
+            & input[type="text"]:active,
+            & input[type="email"]:focus,
+            & input[type="email"]:active,
+            & textarea:focus,
+            & textarea:active {
+                border-color: $mainColor;
+                outline: none;
+            }
+
+            & button {
+                padding: 15px 20px;
+                background: $mainColor;
+                color: #fff;
+                border: none;
+                border-radius: 2px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+
+            & button:focus,
+            & button:active {
+                outline: none;
+            }
+
+            & button:hover {
+                font-weight: 700;
+            }
+
+            & textarea {
+                width: 499px;
+                height: 161px;
+                resize: none;
+            }
+
+            &:last-child {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
